@@ -24,4 +24,8 @@ The animal at that index is Dog
 
 
 
-animals =
+animals =["cat","fish","dog","bear","turtle"]
+for i in animals:
+    x=int(input("Enter the index for an animal:"))
+    print(animals[x])
+    break
